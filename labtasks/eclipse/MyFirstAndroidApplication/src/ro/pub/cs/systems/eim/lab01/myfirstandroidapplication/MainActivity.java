@@ -25,7 +25,7 @@ public class MainActivity extends Activity {
 			greetingTextView.setAlpha(1);
 			
 			// TODO: exercise 9a
-			
+			greetingTextView.setText(greetingTextView.getText().toString().replace("xxx", "\n"+userNameEditText.getText()));
 			// TODO: exercise 9b
 		}
 		
